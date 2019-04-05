@@ -36,12 +36,6 @@ Here we can see the inputs the model aspects and the outputs it generates, as we
 
 ___
 
-## Import COCO Labels File
-
-![alt text](https://github.com/IlijaMihajlovic/CoreML-and-Vison-with-an-pretrained-deep-learning-SSD-model/blob/master/CoreML%20And%20Vison%20Real%20Time%20Object%20Detction/Images/coco%20labels%20file.png)
-
-___
-
 ## Camera Usage Description
 Add permission in info.plist for device's camera access
 
@@ -56,7 +50,11 @@ Or you can open the info.plist file as raw XML and add the following code:
 ```
 ___
 
+## Import COCO Labels File
 
+![alt text](https://github.com/IlijaMihajlovic/CoreML-and-Vison-with-an-pretrained-deep-learning-SSD-model/blob/master/CoreML%20And%20Vison%20Real%20Time%20Object%20Detction/Images/coco%20labels%20file.png)
+
+___
 
 ## License
 ```

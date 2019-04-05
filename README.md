@@ -8,12 +8,18 @@
  This app can find the locations of several different types of objects in the image. The detections are described by bounding boxes, and for each bounding box the model also predicts a class.
 
 ## One Last Note
-* Currently, I do not have an iPhone, so I'm unable to test the app on a real device. I apologize in advance for maybe possible bugs.
+* Currently, I do not have an iPhone, so I'm unable to test the app on a physical device. I apologize in advance for maybe possible bugs.
 
    Kind regards,
 
    Ilija 🖖 😄
 ___
+
+## Requirements
+- Physical device! Because the simulator does not have a camera
+- Swift 4.2
+- Xcode 9.2+
+- iOS 11.0+
 
 ## License
 ```

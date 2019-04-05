@@ -42,6 +42,19 @@ ___
 
 ___
 
+## Camera Usage Description
+Add permission in info.plist for device's camera access
+
+![alt text](https://github.com/IlijaMihajlovic/CoreML-and-Vison-with-an-pretrained-deep-learning-SSD-model/blob/master/CoreML%20And%20Vison%20Real%20Time%20Object%20Detction/Images/camera%20usage%20description.png)
+
+Or you can open the info.plist file as raw XML and add the following code:
+
+```swift
+<key>NSCameraUsageDescription</key>
+      <string>Camera Needed For Object Detection And Classification</string>
+
+```
+___
 
 
 

@@ -4,11 +4,9 @@
 ![swift-version](https://img.shields.io/badge/swift-4.2-red.svg)
 ![lisence](https://img.shields.io/badge/license-MIT-black.svg)
 
- This project shows how to use CoreML and Vison with an pretrained deep learning SSD model. There are many variations of SSD. The one we’re going to use is MobileNet V2 as the backbone this model also has separable convolutions for the SSD layers, also known as SSDLite.
+ This project shows how to use CoreML and Vison with an pretrained deep learning SSD model. There are many variations of SSD. The one we’re going to use is MobileNetV2 as the backbone this model also has separable convolutions for the SSD layers, also known as SSDLite.
  This app can find the locations of several different types of objects in the image. The detections are described by bounding boxes, and for each bounding box the model also predicts a class.
- 
- 
- 
+___
 
 ## One Last Note
 * Currently, I do not have an iPhone, so I'm unable to test the app on a physical device. I apologize in advance for maybe possible bugs.
@@ -23,6 +21,14 @@ ___
 - Swift 4.2
 - Xcode 9.2+
 - iOS 11.0+
+
+___
+## Auto genereted model helper class
+Once the model is imported the compiler generates a model helper class on build path automatically.Then we can access the model through model helper class by creating an instance.
+![alt text](https://github.com/IlijaMihajlovic/CoreML-and-Vison-with-an-pretrained-deep-learning-SSD-model/blob/master/CoreML%20And%20Vison%20Real%20Time%20Object%20Detction/Images/auto%20generated%20core%20ml%20class%20.png)
+___
+
+
 
 ## License
 ```

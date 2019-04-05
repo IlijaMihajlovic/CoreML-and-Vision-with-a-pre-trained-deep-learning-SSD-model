@@ -8,7 +8,7 @@
  This app can find the locations of several different types of objects in the image. The detections are described by bounding boxes, and for each bounding box the model also predicts a class.
 ___
 
-## One Last Note
+## Side Note
 * Currently, I do not have an iPhone, so I'm unable to test the app on a physical device. I apologize in advance for maybe possible bugs.
 
    Kind regards,

@@ -30,14 +30,19 @@ Once the model is imported the compiler generates a model helper class on build 
 ___
 
 ## Model Metadata
+Here we can see the inputs the model aspects and the outputs it generates, as well as auto genereted model helper class.
 
 ![alt text](https://github.com/IlijaMihajlovic/CoreML-and-Vison-with-an-pretrained-deep-learning-SSD-model/blob/master/CoreML%20And%20Vison%20Real%20Time%20Object%20Detction/Images/machine%20learing%20model.png)
 
 ___
 
-Import COCO Labels File
+## Import COCO Labels File
 
 ![alt text](https://github.com/IlijaMihajlovic/CoreML-and-Vison-with-an-pretrained-deep-learning-SSD-model/blob/master/CoreML%20And%20Vison%20Real%20Time%20Object%20Detction/Images/coco%20labels%20file.png)
+
+___
+
+
 
 
 ## License

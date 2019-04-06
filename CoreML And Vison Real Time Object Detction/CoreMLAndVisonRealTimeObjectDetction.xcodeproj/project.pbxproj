@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24321F732258A28300B2B22B /* CoreMLAndVisonRealTimeObjectDetctionTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 553366C32204898800A67647 /* CoreMLAndVisonRealTimeObjectDetctionTests.xctest */; };
+		24321F782258A39500B2B22B /* MobileNetV2_SSDLite.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 24321F762258A39500B2B22B /* MobileNetV2_SSDLite.mlmodel */; };
+		24321F792258A3A500B2B22B /* MobileNetV2_SSDLite.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 24321F762258A39500B2B22B /* MobileNetV2_SSDLite.mlmodel */; };
+		24321F7D2258A5B500B2B22B /* CoreMLAndVisonRealTimeObjectDetctionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553366C52204898800A67647 /* CoreMLAndVisonRealTimeObjectDetctionTests.swift */; };
+		24321F812258A7BC00B2B22B /* VideoCaptureExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24321F802258A7BC00B2B22B /* VideoCaptureExtension.swift */; };
+		24321F822258A7BC00B2B22B /* VideoCaptureExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24321F802258A7BC00B2B22B /* VideoCaptureExtension.swift */; };
+		24321F842258A99500B2B22B /* MainVCTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24321F832258A99500B2B22B /* MainVCTableViewDataSource.swift */; };
+		24321F852258A99500B2B22B /* MainVCTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24321F832258A99500B2B22B /* MainVCTableViewDataSource.swift */; };
+		24321F872258AAB400B2B22B /* MainVCVideoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24321F862258AAB400B2B22B /* MainVCVideoCaptureDelegate.swift */; };
+		24321F882258AAB400B2B22B /* MainVCVideoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24321F862258AAB400B2B22B /* MainVCVideoCaptureDelegate.swift */; };
+		24321F8A2258AC5200B2B22B /* MainVCPerformanceMeasurementDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24321F892258AC5200B2B22B /* MainVCPerformanceMeasurementDelegate.swift */; };
+		24321F8B2258AC5200B2B22B /* MainVCPerformanceMeasurementDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24321F892258AC5200B2B22B /* MainVCPerformanceMeasurementDelegate.swift */; };
 		24CAFD9B225763B300C7EBDD /* MeasureLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CAFD9A225763B300C7EBDD /* MeasureLogView.swift */; };
-		553366C62204898800A67647 /* CoreMLAndVisonRealTimeObjectDetctionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553366C52204898800A67647 /* CoreMLAndVisonRealTimeObjectDetctionTests.swift */; };
 		553366CF220489DD00A67647 /* CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553366CE220489DD00A67647 /* CVPixelBuffer.swift */; };
 		554F149C220362AB00B828B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554F149B220362AB00B828B0 /* AppDelegate.swift */; };
 		554F149E220362AB00B828B0 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554F149D220362AB00B828B0 /* MainVC.swift */; };
@@ -18,7 +29,6 @@
 		554F14AE220362DA00B828B0 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554F14AD220362DA00B828B0 /* VideoCapture.swift */; };
 		558918ED2208218800F182BA /* DrawBoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558918EC2208218800F182BA /* DrawBoundingBox.swift */; };
 		558918EF22089FFE00F182BA /* Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558918EE22089FFE00F182BA /* Measure.swift */; };
-		715E7E6C2235DC75008DBC6F /* MobileNetV2_SSDLite.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 715E7E6B2235DC75008DBC6F /* MobileNetV2_SSDLite.mlmodel */; };
 		715E7E6E2235EAD4008DBC6F /* coco_labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 715E7E6D2235EAD4008DBC6F /* coco_labels.txt */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24321F762258A39500B2B22B /* MobileNetV2_SSDLite.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2_SSDLite.mlmodel; sourceTree = "<group>"; };
+		24321F802258A7BC00B2B22B /* VideoCaptureExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptureExtension.swift; sourceTree = "<group>"; };
+		24321F832258A99500B2B22B /* MainVCTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCTableViewDataSource.swift; sourceTree = "<group>"; };
+		24321F862258AAB400B2B22B /* MainVCVideoCaptureDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCVideoCaptureDelegate.swift; sourceTree = "<group>"; };
+		24321F892258AC5200B2B22B /* MainVCPerformanceMeasurementDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCPerformanceMeasurementDelegate.swift; sourceTree = "<group>"; };
 		24CAFD9A225763B300C7EBDD /* MeasureLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureLogView.swift; sourceTree = "<group>"; };
 		553366C32204898800A67647 /* CoreMLAndVisonRealTimeObjectDetctionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMLAndVisonRealTimeObjectDetctionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		553366C52204898800A67647 /* CoreMLAndVisonRealTimeObjectDetctionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLAndVisonRealTimeObjectDetctionTests.swift; sourceTree = "<group>"; };
@@ -48,7 +63,6 @@
 		554F14AD220362DA00B828B0 /* VideoCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
 		558918EC2208218800F182BA /* DrawBoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawBoundingBox.swift; sourceTree = "<group>"; };
 		558918EE22089FFE00F182BA /* Measure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Measure.swift; sourceTree = "<group>"; };
-		715E7E6B2235DC75008DBC6F /* MobileNetV2_SSDLite.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2_SSDLite.mlmodel; sourceTree = "<group>"; };
 		715E7E6D2235EAD4008DBC6F /* coco_labels.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = coco_labels.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,12 +84,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24CAFD9C2257655200C7EBDD /* Extension */ = {
+		24CAFD9C2257655200C7EBDD /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				553366CE220489DD00A67647 /* CVPixelBuffer.swift */,
+				24321F802258A7BC00B2B22B /* VideoCaptureExtension.swift */,
+				24321F832258A99500B2B22B /* MainVCTableViewDataSource.swift */,
+				24321F862258AAB400B2B22B /* MainVCVideoCaptureDelegate.swift */,
+				24321F892258AC5200B2B22B /* MainVCPerformanceMeasurementDelegate.swift */,
 			);
-			path = Extension;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		24CAFD9D2257656300C7EBDD /* View */ = {
@@ -90,8 +108,8 @@
 		24CAFD9E2257670F00C7EBDD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				24321F762258A39500B2B22B /* MobileNetV2_SSDLite.mlmodel */,
 				715E7E6D2235EAD4008DBC6F /* coco_labels.txt */,
-				715E7E6B2235DC75008DBC6F /* MobileNetV2_SSDLite.mlmodel */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -129,7 +147,7 @@
 			children = (
 				558918F12208A4F300F182BA /* Controller */,
 				24CAFD9D2257656300C7EBDD /* View */,
-				24CAFD9C2257655200C7EBDD /* Extension */,
+				24CAFD9C2257655200C7EBDD /* Extensions */,
 				558918F02208A4E000F182BA /* Helpers */,
 				554F149F220362AB00B828B0 /* Main.storyboard */,
 				554F14A4220362AC00B828B0 /* LaunchScreen.storyboard */,
@@ -240,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24321F732258A28300B2B22B /* CoreMLAndVisonRealTimeObjectDetctionTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				553366C62204898800A67647 /* CoreMLAndVisonRealTimeObjectDetctionTests.swift in Sources */,
+				24321F882258AAB400B2B22B /* MainVCVideoCaptureDelegate.swift in Sources */,
+				24321F8B2258AC5200B2B22B /* MainVCPerformanceMeasurementDelegate.swift in Sources */,
+				24321F782258A39500B2B22B /* MobileNetV2_SSDLite.mlmodel in Sources */,
+				24321F852258A99500B2B22B /* MainVCTableViewDataSource.swift in Sources */,
+				24321F822258A7BC00B2B22B /* VideoCaptureExtension.swift in Sources */,
+				24321F7D2258A5B500B2B22B /* CoreMLAndVisonRealTimeObjectDetctionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,13 +293,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24321F792258A3A500B2B22B /* MobileNetV2_SSDLite.mlmodel in Sources */,
+				24321F8A2258AC5200B2B22B /* MainVCPerformanceMeasurementDelegate.swift in Sources */,
 				554F149E220362AB00B828B0 /* MainVC.swift in Sources */,
 				558918EF22089FFE00F182BA /* Measure.swift in Sources */,
 				558918ED2208218800F182BA /* DrawBoundingBox.swift in Sources */,
 				553366CF220489DD00A67647 /* CVPixelBuffer.swift in Sources */,
+				24321F842258A99500B2B22B /* MainVCTableViewDataSource.swift in Sources */,
 				554F14AE220362DA00B828B0 /* VideoCapture.swift in Sources */,
 				24CAFD9B225763B300C7EBDD /* MeasureLogView.swift in Sources */,
-				715E7E6C2235DC75008DBC6F /* MobileNetV2_SSDLite.mlmodel in Sources */,
+				24321F812258A7BC00B2B22B /* VideoCaptureExtension.swift in Sources */,
+				24321F872258AAB400B2B22B /* MainVCVideoCaptureDelegate.swift in Sources */,
 				554F149C220362AB00B828B0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

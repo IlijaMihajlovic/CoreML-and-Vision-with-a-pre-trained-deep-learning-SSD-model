@@ -23,6 +23,7 @@ class CoreMLAndVisonRealTimeObjectDetctionTests: XCTestCase {
     
     override func setUp() {
         ssdModel = try? VNCoreMLModel(for: MobileNetV2_SSDLite().model)
+       
         if let visionModel = ssdModel {
             ssdRequest = VNCoreMLRequest(model: visionModel, completionHandler: nil)
         }

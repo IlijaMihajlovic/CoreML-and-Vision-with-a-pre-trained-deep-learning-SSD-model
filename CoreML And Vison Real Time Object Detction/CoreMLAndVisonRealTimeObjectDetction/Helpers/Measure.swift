@@ -20,14 +20,10 @@ class Measure {
     var measurements: [Dictionary<String, Double>]
     
     init() {
-        let measurement = [
-            "start": CACurrentMediaTime(),
-            "end": CACurrentMediaTime()
-        ]
+        let measurement = ["start": CACurrentMediaTime(),"end": CACurrentMediaTime()]
         measurements = Array<Dictionary<String, Double>>(repeating: measurement, count: 30)
     }
     
-    // start
     func recordStart() {
         index += 1
         index %= 30
@@ -36,7 +32,6 @@ class Measure {
         labeling(for: index, with: "start")
     }
     
-    // stop
     func recordStop() {
         labeling(for: index, with: "end")
         
@@ -64,7 +59,6 @@ class Measure {
     private func getBeforeMeasurment(for index: Int) -> Dictionary<String, Double> {
         return measurements[(index + 30 - 1) % 30]
     }
-    
     
 }
 

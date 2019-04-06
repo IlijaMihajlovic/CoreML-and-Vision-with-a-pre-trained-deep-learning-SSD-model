@@ -36,7 +36,7 @@ class MainVC: UIViewController {
     var predictions: [VNRecognizedObjectObservation] = []
     
     // MARK - Performance Measurement Property
-    private let measureInstance = Measure()
+     let measureInstance = Measure()
     
     
     
@@ -86,7 +86,7 @@ class MainVC: UIViewController {
     }
     
     // MARK: - Poseprocessing
-    func visionRequestDidComplete(request: VNRequest, error: Error?) {
+   fileprivate func visionRequestDidComplete(request: VNRequest, error: Error?) {
         self.measureInstance.labelingWith(with: "endInference")
         
         if let predictions = request.results as? [VNRecognizedObjectObservation] {
@@ -126,59 +126,7 @@ class MainVC: UIViewController {
     }
     
     
-    fileprivate  func resizePreviewLayer() {
+    fileprivate func resizePreviewLayer() {
         videoCapture.previewLayer?.frame = videoPreview.bounds
-    }
-}
-
-
-
-//MARK: - Extensions
-
-//Performance Measurement Delegate
-extension MainVC: MeasureDelegate {
-    func updateMeasure(inferenceTime: Double, executionTime: Double, fps: Int) {
-        //print(inference, executionTime, fps)
-        DispatchQueue.main.async {
-            self.inferenceLabel.text = "inference: \(Int(inferenceTime*1000.0)) mm"
-            self.etimeLabel.text = "execution: \(Int(executionTime*1000.0)) mm"
-            self.fpsLabel.text = "fps: \(fps)"
-        }
-    }
-}
-
-
-//VideoCaptureDelegate
-extension MainVC: VideoCaptureDelegate {
-    func videoCapture(_ capture: VideoCapture, didCaptureVideoFrame pixelBuffer: CVPixelBuffer?, timestamp: CMTime) {
-        // the captured image from camera is contained on pixelBuffer
-        if let pixelBuffer = pixelBuffer {
-            
-            self.measureInstance.recordStart()
-            
-            self.predictUsingVision(pixelBuffer: pixelBuffer)
-        }
-    }
-}
-
-
-//TableViewDataSource
-extension MainVC: UITableViewDataSource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return predictions.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "InfoCell") else {
-            return UITableViewCell()
-        }
-        
-        let rectString = predictions[indexPath.row].boundingBox.toString(digit: 2)
-        let confidence = predictions[indexPath.row].labels.first?.confidence ?? -1
-        let confidenceString = String(format: "%.3f", confidence/*Math.sigmoid(confidence)*/)
-        
-        cell.textLabel?.text = predictions[indexPath.row].label ?? "N/A"
-        cell.detailTextLabel?.text = "\(rectString), \(confidenceString)"
-        return cell
     }
 }

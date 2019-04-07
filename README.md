@@ -1,7 +1,7 @@
 # CoreML and Vison object detection with a pretrained deep learning SSD model
 
-![platform-ios](https://img.shields.io/badge/platform-ios-LightPink.svg)
-![swift-version](https://img.shields.io/badge/swift-4.2-LightBlue.svg)
+![platform-ios](https://img.shields.io/badge/platform-ios-Blue.svg)
+![swift-version](https://img.shields.io/badge/swift-4.2-Orange.svg)
 ![lisence](https://img.shields.io/badge/license-MIT-Lightgrey.svg)
 
  This project shows how to use CoreML and Vison with a pretrained deep learning SSD model. There are many variations of SSD. The one we’re going to use is MobileNetV2 as the backbone this model also has separable convolutions for the SSD layers, also known as SSDLite.

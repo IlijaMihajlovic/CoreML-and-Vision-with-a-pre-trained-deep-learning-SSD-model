@@ -24,7 +24,7 @@ ___
 
 ___
 ## Auto genereted model helper class
-Once the model is imported the compiler generates a model helper class on build path automatically.Then we can access the model through model helper class by creating an instance.
+Once the model is imported the compiler generates a model helper class on build path automatically. Then we can access the model through model helper class by creating an instance.
 
 ![alt text](https://github.com/IlijaMihajlovic/CoreML-and-Vison-with-an-pretrained-deep-learning-SSD-model/blob/master/CoreML%20And%20Vison%20Real%20Time%20Object%20Detction/Images/auto%20generated%20core%20ml%20class%20.png)
 ___

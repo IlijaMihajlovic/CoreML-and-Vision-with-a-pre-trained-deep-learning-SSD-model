@@ -39,7 +39,7 @@ ___
 
 Here we can see the inputs the model aspects and the outputs it generates, as well as auto genereted model helper class.
 
-![alt text](https://github.com/IlijaMihajlovic/CoreML-and-Vison-with-an-pretrained-deep-learning-SSD-model/blob/master/CoreML%20And%20Vison%20Real%20Time%20Object%20Detction/Images/machine%20learing%20model.png)
+![alt text](https://github.com/IlijaMihajlovic/CoreML-and-Vision-with-a-pretrained-deep-learning-SSD-model/blob/master/CoreML-and-Vision-with-a-pretrained-deep-learning-SSD-model/CoreMLAndVisionRealTimeObjectDetection/Images/machine%20learing%20model.png)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 Add permission in info.plist for device's camera access
 
-![alt text](https://github.com/IlijaMihajlovic/CoreML-and-Vison-with-an-pretrained-deep-learning-SSD-model/blob/master/CoreML%20And%20Vison%20Real%20Time%20Object%20Detction/Images/camera%20usage%20description.png)
+![alt text](https://github.com/IlijaMihajlovic/CoreML-and-Vision-with-a-pretrained-deep-learning-SSD-model/blob/master/CoreML-and-Vision-with-a-pretrained-deep-learning-SSD-model/CoreMLAndVisionRealTimeObjectDetection/Images/camera%20usage%20description.png)
 
 Or you can open the info.plist file as raw XML and add the following code:
 
@@ -60,7 +60,7 @@ ___
 
 ## Import COCO Dataset Labels
 
-![alt text](https://github.com/IlijaMihajlovic/CoreML-and-Vison-with-an-pretrained-deep-learning-SSD-model/blob/master/CoreML%20And%20Vison%20Real%20Time%20Object%20Detction/Images/coco%20labels%20file.png)
+![alt text](https://github.com/IlijaMihajlovic/CoreML-and-Vision-with-a-pretrained-deep-learning-SSD-model/blob/master/CoreML-and-Vision-with-a-pretrained-deep-learning-SSD-model/CoreMLAndVisionRealTimeObjectDetection/Images/coco%20labels%20file.png)
 
 ___
 

@@ -30,14 +30,14 @@ ___
 
 ## Auto genereted model helper class
 
-Once the model is imported the compiler generates a model helper class on build path automatically. Then we can access the model through model helper class by creating an instance.
+* Once the model is imported the compiler generates a model helper class on build path automatically. Then we can access the model through model helper class by creating an instance.
 
 ![alt text](https://github.com/IlijaMihajlovic/CoreML-and-Vision-with-a-pretrained-deep-learning-SSD-model/blob/master/CoreML-and-Vision-with-a-pretrained-deep-learning-SSD-model/CoreMLAndVisionRealTimeObjectDetection/Images/auto%20generated%20core%20ml%20class%20.png)
 ___
 
 ## Model Metadata
 
-Here we can see the inputs the model aspects and the outputs it generates, as well as auto genereted model helper class.
+* Here we can see the inputs the model aspects and the outputs it generates, as well as auto genereted model helper class.
 
 ![alt text](https://github.com/IlijaMihajlovic/CoreML-and-Vision-with-a-pretrained-deep-learning-SSD-model/blob/master/CoreML-and-Vision-with-a-pretrained-deep-learning-SSD-model/CoreMLAndVisionRealTimeObjectDetection/Images/machine%20learing%20model.png)
 

@@ -45,11 +45,11 @@ ___
 
 ## Camera Usage Description
 
-* Add permission in info.plist for device's camera access
+* Add permission in info.plist for device's camera access.
 
 ![alt text](https://github.com/IlijaMihajlovic/CoreML-and-Vision-with-a-pretrained-deep-learning-SSD-model/blob/master/CoreML-and-Vision-with-a-pretrained-deep-learning-SSD-model/CoreMLAndVisionRealTimeObjectDetection/Images/camera%20usage%20description.png)
 
- Or you can open the info.plist file as raw XML and add the following code:
+* Or you can open the info.plist file as raw XML and add the following code:
 
 ```swift
 <key>NSCameraUsageDescription</key>

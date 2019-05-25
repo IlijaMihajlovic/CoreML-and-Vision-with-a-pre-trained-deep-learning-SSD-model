@@ -1,4 +1,4 @@
-# CoreML and Vision object detection with a pretrained deep learning SSD model
+# CoreML and Vision object detection with a pre-trained deep learning SSD model
 
 ![platform-ios](https://img.shields.io/badge/platform-ios-Blue.svg)
 ![swift-version](https://img.shields.io/badge/swift-4.2-Orange.svg)

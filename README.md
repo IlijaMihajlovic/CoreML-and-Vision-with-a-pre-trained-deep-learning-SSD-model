@@ -5,7 +5,7 @@
 ![lisence](https://img.shields.io/badge/license-MIT-Lightgrey.svg)
 
  This project shows how to use CoreML and Vision with a pre-trained deep learning SSD model. There are many variations of SSD. The one we’re going to use is MobileNetV2 as the backbone this model also has separable convolutions for the SSD layers, also known as SSDLite.
- This app can find the locations of several different types of objects in the image. The detections are described by bounding boxes, and for each bounding box the model also predicts a class.
+ This app can find the locations of several different types of objects in the image. The detections are described by bounding boxes, and for each bounding box, the model also predicts a class.
 ___
 
 ## Side Note
